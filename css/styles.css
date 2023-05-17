@@ -304,7 +304,7 @@ button {
     border-radius: 4px;
 
     transition: color var(--cubic-bezier), background-color var(--cubic-bezier),
-        border-color var(--cubic-bezier), box-shadow var(---cubic-bezier);
+        border-color var(--cubic-bezier), box-shadow var(--cubic-bezier);
 }
 
 .btn-filter:focus,
@@ -781,7 +781,7 @@ button {
 
 .modal-close-icon {
     fill: currentColor;
-    transition: fill var(---cubic-bezier);
+    transition: fill var(--cubic-bezier);
 }
 
 .modal-close-btn:hover .modal-close-icon,
