@@ -776,7 +776,8 @@ button {
     background-color: var(--ocean-text-color);
     color: var(--border-btn-color);
 
-    border-color: transparent;
+    /* border-color: transparent; */
+    border: none;
 }
 
 .modal-close-icon {
