@@ -287,6 +287,7 @@ button {
     background-color: var(--ocean-text-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
+    border: none;
 }
 
 .btn-filter {
@@ -767,8 +768,7 @@ button {
     position: absolute;
     top: 24px;
     right: 24px;
-    transition: background-color var(--cubic-bezier), color var(--cubic-bezier),
-        border-color var(--cubic-bezier);
+    transition: background-color var(--cubic-bezier), border var(--cubic-bezier);
 }
 
 .modal-close-btn:hover,
@@ -781,6 +781,7 @@ button {
 
 .modal-close-icon {
     fill: currentColor;
+    transition: fill var(---cubic-bezier);
 }
 
 .modal-close-btn:hover .modal-close-icon,
