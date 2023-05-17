@@ -279,7 +279,7 @@ button {
     background-color: var(--ocean-text-color);
     line-height: 1.5;
     cursor: pointer;
-    transition: color var(--cubic-bezier);
+    transition: background-color var(--cubic-bezier);
 }
 
 .btn:focus,
@@ -477,7 +477,7 @@ button {
     background-color: var(--accent-bgc);
     color: #f4f4fd;
     border-radius: 50%;
-    transition: color var(--cubic-bezier);
+    transition: background-color var(--cubic-bezier);
 }
 
 .socials-icon {
@@ -499,7 +499,7 @@ button {
     background-color: var(--accent-bgc);
     color: #f4f4fd;
     border-radius: 50%;
-    transition: color var(--cubic-bezier);
+    transition: background-color var(--cubic-bezier);
 }
 
 .socials-footer-link:hover,
@@ -539,7 +539,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: color var(--cubic-bezier);
+    transition: border-color var(--cubic-bezier);
 }
 
 .customers-icons:hover,
